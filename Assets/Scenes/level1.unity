@@ -309,7 +309,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c2ecfcbd7d57034d9e5ef5fd984b6d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  particle: {fileID: 0}
+  particle: {fileID: 1351427111148296, guid: 78fe380681720f94bbddfa7934a8b7e4, type: 2}
   speed: 6
 --- !u!1001 &572746918
 Prefab:
