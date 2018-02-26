@@ -1,0 +1,17 @@
+/[Ll]ibrary/
+/[Tt]temp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+
+*.DS_STORE
