@@ -897,6 +897,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   platform: {fileID: 1150053001834224, guid: c7cdad22cbf57b84db6a2ac1ac120850, type: 2}
+  diamonds: {fileID: 1068753644171072, guid: 76acd718218d30643b976541a79f5959, type: 2}
   gameOver: 0
 --- !u!4 &2010920641
 Transform:
