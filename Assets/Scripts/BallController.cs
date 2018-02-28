@@ -31,7 +31,7 @@ public class BallController : MonoBehaviour {
                 rb.velocity = new Vector3(speed, 0, 0);
                 started = true;
 
-                //GameManager.instance.StartGame();
+                GameManager.instance.StartGame();
             }
         }
 
@@ -41,10 +41,10 @@ public class BallController : MonoBehaviour {
 
             gameOver = true;
             rb.velocity = new Vector3(0, -25f, 0);
-            
+
             Camera.main.GetComponent<CameraFollow>().gameOver = true;
-            
-            //GameManager.instance.GameOver();
+
+            GameManager.instance.GameOver();
 
 
         }
@@ -73,6 +73,8 @@ public class BallController : MonoBehaviour {
 
             Destroy(col.gameObject);
             Destroy(part, 1f);
+
+
         }
     }
 }
