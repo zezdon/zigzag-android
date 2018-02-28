@@ -26,7 +26,7 @@ public class GameManager : MonoBehaviour {
 
         UiManager.instance.GameStart();
         ScoreManager.instance.startScore();
-        //GameObject.Find("PlatformSpawner").GetComponent<PlatformSpawner>().StartSpawningPlatforms();
+        GameObject.Find("PlatformSpawner").GetComponent<PlatformSpawner>().StartSpawningPlatforms();
     }
 
     public void GameOver() {
